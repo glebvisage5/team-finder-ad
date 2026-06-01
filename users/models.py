@@ -1,6 +1,5 @@
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
 from django.db import models
-
 from .constants import NAME_MAX_LENGTH, SURNAME_MAX_LENGTH, PHONE_MAX_LENGTH, ABOUT_MAX_LENGTH
 from .managers import UserManager
 

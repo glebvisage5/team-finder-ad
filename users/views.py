@@ -1,7 +1,6 @@
 from django.contrib.auth import login, logout, update_session_auth_hash
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404, render, redirect
-
 from projects.constants import USERS_PER_PAGE
 from projects.utils import paginate
 from .constants import (

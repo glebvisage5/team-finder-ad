@@ -1,5 +1,4 @@
 from django.core.paginator import Paginator
-
 from .constants import PROJECTS_PER_PAGE, USERS_PER_PAGE
 
 

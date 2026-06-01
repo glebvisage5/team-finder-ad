@@ -1,5 +1,6 @@
 from django import forms
 
+
 from team_finder.mixins import GithubUrlMixin
 from .constants import STATUS_DISPLAY_CHOICES
 from .models import Project

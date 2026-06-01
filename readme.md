@@ -70,7 +70,6 @@ POSTGRES_PORT=5432
 ```
 
 Сгенерировать безопасный ключ (только ASCII, безопасен на Windows):
-
 ```bash
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```

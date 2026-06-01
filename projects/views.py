@@ -3,11 +3,11 @@ from http import HTTPStatus
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, render, redirect
-
 from .constants import PROJECTS_PER_PAGE, STATUS_OPEN, STATUS_CLOSED
 from .forms import ProjectForm
 from .models import Project
 from .utils import paginate
+
 
 
 def project_list(request):

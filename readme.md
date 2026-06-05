@@ -162,4 +162,4 @@ print('Готово!')
 
 ## Автор
 
-Gleb Efimkin — [GitHub](https://github.com/glebvisage5)
+Gleb — [GitHub](https://github.com/glebvisage5)
